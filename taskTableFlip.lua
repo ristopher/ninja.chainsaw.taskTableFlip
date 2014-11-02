@@ -1,4 +1,4 @@
-scriptId = 'ninja.chainsaw.winTab'
+scriptId = 'ninja.chainsaw.taskTableFlip'
 version = '0.1.1'
 
 -- IMPORTANT NOTES:
@@ -196,7 +196,7 @@ function onForegroundWindowChange(app, title)
     activeApp = ""
     if platform == "Windows" then
         wantActive = true
-        activeApp = "winTabTest"
+        activeApp = "taskTableFlip"
     end
     return wantActive
 end
